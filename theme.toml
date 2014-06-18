@@ -1,6 +1,6 @@
 name = "Plain"
 license = "MIT"
-source_repo = ""
+source_repo = "https://github.com/aubergene/hugo-plain"
 description = "A minimal theme, for learning and customization."
 
 [author]
