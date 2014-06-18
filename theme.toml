@@ -1,0 +1,10 @@
+name = "Plain"
+license = "MIT"
+source_repo = ""
+description = "A minimal theme, for learning and customization."
+
+[author]
+    name = "Julian Burgess"
+    email = "aubergene@gmail.com"
+    url = "https://aubergene.com"
+
