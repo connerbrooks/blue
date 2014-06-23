@@ -1,16 +1,22 @@
   {{ template "theme/partials/head.html" . }}
   <body>
+  {{ template "theme/partials/sidebar.html" .  }}
 
-    <h1>{{ .Site.Title }}</h1>
+      <div class="content container">
+  <div class="posts">
 
-    <ul>
       {{ range .Data.Pages }}
-        <li>
-          <a href="{{ .Permalink }}">{{ .Title }}</a> -
-          <time>{{ .Date.Format "Mon, Jan 2 2006" }}</time>
-        </li>
-      {{ end }}
-    </ul>
+      <div class="post">
+        <h1 class="post-title">
+          <a href="{{ .Permalink }}">
+            {{ .Title }}
+          </a>
+        </h1>
+        
+        {{ .Content }}
+    </div>
+    {{ end }}
+</div>
 
   </body>
 </html>
