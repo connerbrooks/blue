@@ -1,9 +1,14 @@
-name = "Plain"
+name = "blue"
 license = "MIT"
-source_repo = "https://github.com/aubergene/hugo-plain"
-description = "A minimal theme, for learning and customization."
+source_repo = "https://github.com/connerbrooks/blue"
+description = "A minimal theme."
 
 [author]
+    name = "Conner Brooks"
+    email = "connerbrooks@gmail.com"
+    url = "connerbrooks.net"
+
+[original]
     name = "Julian Burgess"
     email = "aubergene@gmail.com"
     url = "https://aubergene.com"
