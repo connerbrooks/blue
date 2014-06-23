@@ -1,6 +1,6 @@
-# Plain
+# Blue 
 
-A minimal theme, for learning and customization.
+A minimal theme, for Hugo.
 
 ## License
 
