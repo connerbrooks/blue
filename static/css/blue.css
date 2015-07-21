@@ -1,5 +1,6 @@
 html {
   font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
 }
 
 /* Side bar */
@@ -20,18 +21,19 @@ html {
 
 /* Sidebar links */
 .sidebar a {
+  padding-left: 1.5rem;
   color: #333;
   text-decoration: none;
   font-weight: 300;
 }
 
 .sidebar a:hover {
-  color: #6a9fb5;
+  color: #F50057;
 }
 
 /* About section */
 .sidebar-about h1 {
-  color: #6a9fb5;
+  color: #00BCD4;
   margin-top: 0;
   font-size: 2.00rem;
   font-family: 'Source Sans Pro', sans-serif;
@@ -62,7 +64,7 @@ a.sidebar-nav-item:focus {
   padding-bottom: 4rem;
 }
 
-.content h1, h2, a {
+.content h1, h2, h3, a {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 200; 
 }
@@ -73,11 +75,11 @@ a.sidebar-nav-item:focus {
 
 .content a {
   text-decoration: none;
-  color: #6a9fb5;
+  color: #00BCD4;
 }
 
 .content a:visited {
-  color: #6a9fb5;
+  color: #00BCD4;
 }
 
 .content a:hover {
@@ -91,10 +93,14 @@ a.sidebar-nav-item:focus {
   color: #a3a3a3;
 }
 
+.post-content {
+  padding-left: 3rem; 
+}
+
 @media (min-width: 48rem) {
   .content {
     max-width: 38rem;
-    margin-left: 20rem;
+    margin-left: 18rem;
     margin-right: 2rem;
   }
 }
